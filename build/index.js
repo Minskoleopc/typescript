@@ -52,7 +52,7 @@ console.log(info);
 let info2 = {
     firstName: "chinmay",
     lastName: "deshpande",
-    age: 12
+    age: 12,
 };
 console.log(info2);
 // let x = 10

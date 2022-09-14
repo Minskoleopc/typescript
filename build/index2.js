@@ -25,4 +25,5 @@ console.log(names);
 let marksB = [12, 12];
 marksB.push(23);
 console.log(marksB);
+// ---------------------------------> Enum , Unions , Function
 // any ??

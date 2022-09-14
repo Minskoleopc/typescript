@@ -124,6 +124,9 @@ marksB.push(23)
 console.log(marksB)
 
 
+// ---------------------------------> Enum , Unions , Function
+
+
 
 
 

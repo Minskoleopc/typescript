@@ -48,9 +48,11 @@
 // let marksB:number[] = [11,22,33,2]
 // let marksC:string[] = ["chinmay","sarika","ram","sham","ramesh"]
 // Tuple (array of fixed length and specfic data type)
+// program 8
 let role = [1, "admin"];
 role.push(12);
 // Object 
+// program 9
 let infoZ = {
     firstName: "chinmay",
     lastName: "deshpande"

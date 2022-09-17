@@ -38,28 +38,28 @@ import { StringifyOptions } from "querystring";
 // // console.log(s)
 
 // // program 3
-// function additionC(x:number,y:number,result:boolean,greet:string):number{
-//     if(result){
-//         console.log(greet)
-//         console.log(x+y)
-//         return x+ y
-//     }
-//     else {
-//         return 0
-//     }
-// }
+function additionC(x:number,y:number,result:boolean,greet:string):number{
+    if(result){
+        console.log(greet)
+        console.log(x+y)
+        return x+ y
+    }
+    else {
+        return 0
+    }
+}
 
 // let q1 = additionC(12,14,true,"Good Morning !")
 
 // program 4
 // type - object 
 
-// let info3:object = {
-//     firstName:"chinmay",
-//     lastName:"deshpande",
-//     age:23
-// }
-// console.log(info3)
+let info3:object = {
+    firstName:"chinmay",
+    lastName:"deshpande",
+    age:23
+}
+console.log(info3)
 
 
 // program 5

@@ -75,3 +75,4 @@ a22.setName("ram")
 console.log(a22.getName())
 
 // protect A -----> B(protected ---> a)
+//( python (Django) , excel , tableau/powerBI , sql)  ---> 

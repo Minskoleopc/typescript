@@ -1,5 +1,4 @@
 class Father {
-
     public firstName:string;
     protected lastName:string
     private city:string = "wardha"

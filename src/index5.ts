@@ -31,7 +31,7 @@ admin.addEmployee('shirish')
 
 // public
 admin.fullName = "Accounting"
-admin.country = "pakistan"
+//admin.country = "pakistan"
 
 // read only and const
 

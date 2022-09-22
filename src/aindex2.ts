@@ -39,7 +39,6 @@ let loanFormOne:loanForm = {
 
 // literal type
 type country = 'india'|'usa'|'mexico'
-
 let student:{
     firstName:string,
     lastName:string,

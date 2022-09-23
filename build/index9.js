@@ -50,3 +50,8 @@ let a1 = Accounting.getInstance();
 let a2 = Accounting.getInstance();
 console.log(a1);
 console.log(a2);
+// private constructor 
+// instance variable which is of type class
+// write a static method to check same instance value 
+//(undefined)
+// call the static method on class name

@@ -131,24 +131,21 @@
 // new SBIN().displayCountry()
 // new PNBN().displayCountry(
 //let qa = new WorldBank()
-class Fa {
-    constructor(firstName, lastName) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-    }
-    display() {
-        console.log(this.firstName, this.lastName);
-    }
-}
-class Sn extends Fa {
-    constructor(firstName, lastName, sname) {
-        super(firstName, lastName);
-        this.sname = sname;
-        this.sname = sname;
-    }
-    display() {
-        console.log(this.sname, this.lastName);
-        super.display();
-    }
-}
-new Sn("shirish", "deshpande", "chinmay").display();
+// class Fa {
+//     constructor(public firstName:string,public lastName:string){
+//     }
+//     display(){
+//         console.log(this.firstName , this.lastName)
+//     }
+// }
+// class Sn extends Fa {
+//     constructor(firstName:string,lastName:string,public sname:string){
+//         super(firstName,lastName)
+//         this.sname = sname
+//     }
+//     display(): void {
+//         console.log(this.sname , this.lastName)
+//         super.display()
+//     }
+// }
+// new Sn("shirish","deshpande","chinmay").display()

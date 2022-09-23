@@ -179,27 +179,22 @@
 // new PNBN().displayCountry(
 
 //let qa = new WorldBank()
+// class Fa {
+//     constructor(public firstName:string,public lastName:string){
+//     }
+//     display(){
+//         console.log(this.firstName , this.lastName)
+//     }
+// }
 
-
-class Fa {
-    constructor(public firstName:string,public lastName:string){
-    }
-    display(){
-        console.log(this.firstName , this.lastName)
-    }
-}
-
-class Sn extends Fa {
-
-    constructor(firstName:string,lastName:string,public sname:string){
-        super(firstName,lastName)
-        this.sname = sname
-    }
-
-    display(): void {
-        console.log(this.sname , this.lastName)
-        super.display()
-    }
-}
-
-new Sn("shirish","deshpande","chinmay").display()
+// class Sn extends Fa {
+//     constructor(firstName:string,lastName:string,public sname:string){
+//         super(firstName,lastName)
+//         this.sname = sname
+//     }
+//     display(): void {
+//         console.log(this.sname , this.lastName)
+//         super.display()
+//     }
+// }
+// new Sn("shirish","deshpande","chinmay").display()

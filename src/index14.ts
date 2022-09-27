@@ -81,7 +81,6 @@ function printInfo(emp:CalEmployee1){
     // if(typeof emp === "Employee1"){
     // }
     // if(typeof emp === "Admin1"){
-
     // }
     if('privileges' in emp){
         console.log(emp.privileges)
@@ -92,6 +91,12 @@ function printInfo(emp:CalEmployee1){
 }
 printInfo({name:"ram",startDate:new Date()})
 printInfo({name:"ram",privileges:["sam","chinmay"]})
+
+
+// saving , current 
+// genrics 
+// decoratores
+// 8 am
 
 
 

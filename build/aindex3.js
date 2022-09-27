@@ -96,19 +96,24 @@
 // hemant.getAge()
 // hemant.getFullName()
 // hemant.getSkills()
-// program 6 (read only)
-class Student {
-    constructor(fn, ag, sks) {
-        this.fullName = fn;
-        this.age = ag;
-        this.skills = sks;
-    }
-}
-let hemant = new Student("chinmaydeshapnde", 32, ['python', 'js']);
-console.log(hemant.fullName);
+// // program 6 (read only)
+// class Student {
+//     readonly fullName: string;
+//     readonly age: number;
+//     readonly skills: string[]
+//     constructor(fn: string, ag: number, sks: string[]) {
+//         this.fullName = fn
+//         this.age = ag
+//         this.skills = sks
+//     }
+// }
+// let hemant = new Student("chinmaydeshapnde", 32, ['python', 'js'])
+// console.log(hemant.fullName)
 // we can access it oustide but cannot update it as its read only
 //hemant.fullName = "ram"
 // Inheritance 
 // Protected 
 // Abstract 
-//Interface 
+//Interface
+//Extended interface
+//Optional ? 

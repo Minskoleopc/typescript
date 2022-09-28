@@ -132,16 +132,15 @@ class Vehicle {
 
 
 // program 5
+// class Vehicle44 {
+//     static country = "India"
+//     static displayCountry(){
+//         console.log(Vehicle44.country)
+//     }
+// }
 
-class Vehicle44 {
-    static country = "India"
-    static displayCountry(){
-        console.log(Vehicle44.country)
-    }
-}
-
-console.log(Vehicle44.country)
-Vehicle44.displayCountry()
+// console.log(Vehicle44.country)
+// Vehicle44.displayCountry()
 
 
 

@@ -96,11 +96,11 @@ class Vehicle {
 // let a222 = new Audi("red", "sedane")
 // a222.displayColorAndType()
 // program 5
-class Vehicle44 {
-    static displayCountry() {
-        console.log(Vehicle44.country);
-    }
-}
-Vehicle44.country = "India";
-console.log(Vehicle44.country);
-Vehicle44.displayCountry();
+// class Vehicle44 {
+//     static country = "India"
+//     static displayCountry(){
+//         console.log(Vehicle44.country)
+//     }
+// }
+// console.log(Vehicle44.country)
+// Vehicle44.displayCountry()

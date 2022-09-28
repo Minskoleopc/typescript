@@ -34,7 +34,19 @@ function printInfo(emp) {
 }
 printInfo({ name: "ram", startDate: new Date() });
 printInfo({ name: "ram", privileges: ["sam", "chinmay"] });
-// saving , current 
-// genrics 
-// decoratores
-// 8 am
+function animalMovenment(animal) {
+    let speed;
+    switch (animal.type) {
+        case 'bird':
+            speed = animal.flyingSpeed;
+            break;
+        case 'tiger':
+            speed = animal.runningSpeed;
+            break;
+        default:
+            console.log('Incorrect');
+    }
+    console.log(speed);
+}
+animalMovenment({ type: 'bird', 'flyingSpeed': 10 });
+animalMovenment({ type: 'tiger', 'runningSpeed': 10 });

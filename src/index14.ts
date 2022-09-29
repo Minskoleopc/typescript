@@ -164,6 +164,18 @@ function animalMovenment(animal:Animal){
 animalMovenment({type:'bird','flyingSpeed':10})
 animalMovenment({type:'tiger','runningSpeed':10})
 
+// Program 7
+let a111 = document.querySelector('p')
+let a1122 = document.querySelector('input')!
+let a2223= <HTMLInputElement>document.querySelector('#two')!
+let aaa = <HTMLImageElement>document.querySelector('#three')!
+//let a222= <String>prompt()!
+
+a1122.value
+a2223.value
+aaa.alt
+
+
 
 
 

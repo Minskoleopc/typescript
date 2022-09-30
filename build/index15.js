@@ -32,6 +32,7 @@ function countAndDescribeA(element) {
 countAndDescribeA(new Set([33, 44, 55, 77]));
 countAndDescribeA(new Map([[1, "admin"], [2, "customer"]]));
 //countAndDescribeA([1,2,3,4])
+const a444 = 23;
 //countAndDescribe(10)
 // This is restricted for any array and string
 // type Sa = any[]|string
@@ -42,3 +43,8 @@ countAndDescribeA(new Map([[1, "admin"], [2, "customer"]]));
 // countAndDescribe([11,22,33,44,55,66])
 //countAndDescribe(10)
 // program 5
+// let a777 = 23
+// let obj = {
+//     23:"hello"
+// }
+// console.log(obj)
